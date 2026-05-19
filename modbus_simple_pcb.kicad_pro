@@ -554,7 +554,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "production\\bom.csv",
+    "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -680,7 +680,7 @@
   "sheets": [
     [
       "3674f77c-484b-46cd-9b66-fe8cf73aff40",
-      "Esterno"
+      "modbus_simple_pcb"
     ]
   ],
   "text_variables": {},
