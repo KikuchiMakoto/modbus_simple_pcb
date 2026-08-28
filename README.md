@@ -17,3 +17,17 @@ Modbus接続用の簡易基板のデータ置き場です。プロジェクト�
 ## NDIS/BNC端子・ケース加工
 
 基板本体以外のNDIS/BNC端子の取り付けやケース加工は、出入りの業者に依頼すれば対応してもらえます。
+
+## ライセンス
+
+本リポジトリの回路図・PCB レイアウト・フットプリント・シンボル等の**ハードウェア設計ファイル**は
+**CERN Open Hardware Licence Version 2 — Strongly Reciprocal (CERN-OHL-S 2.0)** の下で公開しています。
+詳細はリポジトリ同梱の [`LICENSE-CERN-OHL-S-2.0.txt`](./LICENSE-CERN-OHL-S-2.0.txt) を参照してください。
+
+- SPDX: `CERN-OHL-S-2.0`
+- 派生物は同じライセンスでの配布が必要です（strong copyleft）。
+- KiCad のプロジェクトファイル、Gerber、回路図シンボル／フットプリントが対象です。
+
+ファームウェア ([modbus_simple_firmware](https://github.com/KikuchiMakoto/modbus_simple_firmware)) は MIT、
+ドキュメント ([modbus_simple_system](https://github.com/KikuchiMakoto/modbus_simple_system)) も MIT です。
+リポジトリごとにライセンスが異なるため、混在させる場合はそれぞれの LICENSE を確認してください。
